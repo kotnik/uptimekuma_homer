@@ -1,2 +1,12 @@
-# TBD
+version: "2"
+services:
+  homer:
+    image: docker-registry.local:5000/uptimekuma_homer:latest
+    environment:
+      - UKH_PORT=8099
+      - UKH_HOST=http://uptime-kuma.local
+      - UKH_API_KEY=<Create in Uptime Kuma -> Settings -> API Keys>
+    ports:
+      - 8099:8099
+    restart: unless-stopped
 
