@@ -19,8 +19,6 @@ Uptime Kuma for Homer is a tool that will help you quickly preview the status of
 
 The easiest and the recommended way is to run it as a Docker container.
 
-<details><summary><b>Show instructions</b></summary>
-
 1. Have this repo cloned.
 
 2. Build the container:
@@ -57,13 +55,9 @@ The easiest and the recommended way is to run it as a Docker container.
 
 6. Go to _Homer configuration_ section of this document to set up your Homer dashboard instance.
 
-</details>
-
 ### Standalone
 
 Since Uptime Kuma for Homer is a simple Python application, using Flask framework, you can run it directly too.
-
-<details><summary><b>Show instructions</b></summary>
 
 1. Have this repo cloned.
 
@@ -82,8 +76,6 @@ Since Uptime Kuma for Homer is a simple Python application, using Flask framewor
     ```
 
 4. (Optional) set up WSGI server if you want, but this is very simple application for internal use and you really shouldn't bother yourself with that.
-
-</details>
 
 ### Homer configuration
 
