@@ -8,10 +8,10 @@ Uptime Kuma for Homer is a tool that will help you quickly preview the status of
 
 ## How It Works
 
-1. Uptime Kuma exposes Prometheus metrics with the up-to-date status of all the monitors, websites or services that you track with it.
-2. You run Uptime Kuma for Homer, or this project, and it parses that date to prepare it for Homer dashboard.
-3. Homer dashboard supports a message at the top of all pages that can fetch information from a webiste, or Uptime Kuma for Homer in this case.
-4. Whenever you open your Homer dashboard, you will be able to quickly glance the status of all your monitors in Uptime Kuma, and quickly reach it.
+1. Uptime Kuma exposes Prometheus metrics with up-to-date status of all the monitors, websites or services that you track with it.
+2. You run Uptime Kuma for Homer, ie this project, and it parses that data to prepare it for the Homer dashboard.
+3. Homer dashboard supports a message at the top of all pages that can fetch information from a website, or Uptime Kuma for Homer in this case.
+4. Whenever you open your Homer dashboard, you will be able to quickly glance on the status of all your monitors in Uptime Kuma, and quickly reach them.
 
 ## Usage
 
