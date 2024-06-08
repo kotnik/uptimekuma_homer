@@ -1,7 +1,7 @@
 version: "2"
 services:
   homer:
-    image: docker-registry.local:5000/uptimekuma_homer:latest
+    image: docker-registry.local:5000/uptimekuma_homer:latest # Or just `uptimekuma_homer:latest`, in case you aren't using your own Docker registry
     environment:
       - UKH_PORT=8099
       - UKH_HOST=http://uptime-kuma.local
