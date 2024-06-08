@@ -68,14 +68,25 @@ Since Uptime Kuma for Homer is a simple Python application, using Flask framewor
     source .venv/bin/activate
     pip install -r requirements.pinned.txt
     ```
+
+3. Provide configuration using environment variables. Following variables have to be available:
+
+    `UKH_PORT`: a port where Uptime Kuma for Homer will listen, use `8099` for default.
     
-3. Now you are ready to run the application:
+    `UKH_HOST`: URL, a link, to your Uptime Kuma instance.
+    
+    `UKH_API_KEY`: in order to fetch Uptime Kuma metrics we need to authenticate. Go to your Uptime Kuma instance, then Settings and finally API Keys option. Click on _Add API Key_ and use the generated key here.
+
+
+4. Now you are ready to run the application:
 
     ```sh
     python main.py
     ```
 
-4. (Optional) set up WSGI server if you want, but this is very simple application for internal use and you really shouldn't bother yourself with that.
+5. (Optional) set up WSGI server if you want, but this is very simple application for internal use and you really shouldn't bother yourself with that.
+
+6. Go to _Homer configuration_ section of this document to set up your Homer dashboard instance.
 
 ### Homer configuration
 
