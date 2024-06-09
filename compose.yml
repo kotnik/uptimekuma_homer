@@ -9,4 +9,3 @@ services:
     ports:
       - 8099:8099
     restart: unless-stopped
-

@@ -139,4 +139,3 @@ docker tag uptimekuma_homer:1.0 docker-registry.local:5000/uptimekuma_homer:late
 docker push docker-registry.local:5000uptimekuma_homer:1.0
 docker push docker-registry.local:5000/uptimekuma_homer:latest
 ```
-
